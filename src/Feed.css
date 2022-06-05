@@ -1,0 +1,90 @@
+.feed {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 24px;
+}
+
+
+.feed_poster_img {
+    width: 100%;
+    max-width: 260px;
+}
+
+.feed_header {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.feed_poster_header {
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.feed_poster_text {
+    text-align: left;
+    margin: 0 0 16px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.feed_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feed_poster_button {
+    max-width: 260px;
+}
+
+@media (min-width: 980px) {
+    .feed {
+        margin-top: 40px;
+    }
+
+    .feed_wrapper {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .feed_poster_img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .feed_poster_button {
+        max-width: 250px;
+    }
+
+    .feed_poster {
+        margin-left: 20px;
+        max-width: 250px;
+    }
+
+    .feed_header {
+        margin-bottom: 40px;
+    }
+
+    .feed_poster_header {
+        margin-left: 0;
+    }
+
+    .feed_poster_text {
+        margin-left: 0;
+    }
+}

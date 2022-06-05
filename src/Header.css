@@ -1,0 +1,11 @@
+.header {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (min-width: 980px) {
+    .header {
+        margin-bottom: 40px;
+    }
+}
